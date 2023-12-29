@@ -1,0 +1,9 @@
+Semantic Elements: HTML5 introduces new semantic elements like <header>, <footer>, <article>, and <section> to enhance the structure and meaning of web documents.
+
+Multimedia Support: Native support for audio and video elements (<audio> and <video>) allows seamless integration of multimedia content without relying on third-party plugins like Flash.
+
+Canvas: The <canvas> element enables dynamic rendering and manipulation of graphics, charts, and animations directly within the browser, facilitating interactive and visually rich experiences.
+
+Local Storage: HTML5 introduces the localStorage and sessionStorage APIs, enabling web applications to store data locally on the user's device, improving offline functionality and reducing the need for server round-trips.
+
+Responsive Design: Enhanced support for responsive web design through features like media queries allows developers to create websites that adapt and perform well across various devices and screen sizes.

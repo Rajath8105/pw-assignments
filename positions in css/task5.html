@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        height: 100vh;
+      }
+        img{
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            
+        }
+        .conatiner{
+            position: relative;
+        }
+        .img2{
+            top: 40px;
+        }
+        .img1{
+            z-index: 1;
+            left: 100px; 
+           top: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Z-index</h1>
+    <p>The z-index property specifies the stack order of an element.
+
+        An element with greater stack order is always in front of an element with a lower stack order.
+        
+        Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+        
+        Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. </p>
+
+        <div class="conatiner">
+            <img src="./Hanuman Ji.jpg" class="img1" alt="">
+            
+            <img src="./hanu3.jpg"  class="img2" alt="">
+            <p>without z-index hanu3.jpg but with z-index Hanuman.jpg is rendered </p>
+        </div>
+</body>
+</html>

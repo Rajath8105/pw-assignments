@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: blue;
+            /* height: 50vh; */
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            /* align-items: center; */
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        @media (max-width:768px){
+            .container{
+                flex-direction: column;
+                gap: 20px;
+                background-color: gray;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+
+    </div>
+</body>
+</html>
